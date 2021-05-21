@@ -1,0 +1,97 @@
+.optionsDiv{
+    width:55vw;
+    height:90vh;
+    border-radius:10px;
+    background-color:rgba(255, 255, 255, 0.4);
+    margin-top:30px;
+}
+
+.len{
+    margin-top:7vh;
+    margin-left: 2vw;
+    font-size:20px;
+}
+.btn{
+    background-color:rgb(0, 81, 255);
+    color:white;
+    border: none;
+    font-size: 1.8vw;
+    padding:1vw;
+    margin-left: 17vw;
+    margin-top: 6vh;
+    border-radius: 1.8vw;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:rgb(11, 71, 201);
+}
+.ul{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.lowercase{
+    margin-top: 7vh;
+    border: 1px solid black;
+    width:15vw;
+    margin-left: 7vw;
+    padding:2vh;
+    border-radius: 0.5vw;
+}
+#l{
+    padding-left:1vw;
+}
+input[type="checkbox"]{
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+}
+#passwordLen,#l{
+    font-size: 3.5vh;
+}
+
+#passwordLen{
+    padding-left: 7vw;
+}
+.password{
+    background-color:rgba(255, 255, 255, 0.671);
+    width:25vw;
+    height:7vh;
+    border-radius: 40px;
+    margin-left: 15vw;
+}
+.password{
+    display:flex;
+    flex:1;
+    flex-direction:row;
+}
+.copy:hover{
+    cursor:pointer
+}
+.length{
+    margin-top:40px;
+}
+.copy{
+    color:rgb(167, 162, 162);
+}
+.pass{
+    color:rgb(31, 27, 27);
+    font-size:20px;
+    margin-top:5px;
+    margin-left: 20px;
+    overflow-x: scroll;
+    width:18vw;
+    height:6vh
+}
+.h1{
+    text-align:center;
+    padding-top: 5px;
+}
+.h1 > h2{
+    font-weight:500;
+    font-family: "Arial";
+}
+.headDiv{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}

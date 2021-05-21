@@ -1,0 +1,47 @@
+.topheader{
+  flex: 0.65;
+  display: flex;
+  flex-direction: row;
+}
+.generator{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url("https://images.unsplash.com/photo-1530273973427-22351773250c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJsdWUlMjBtb3VudGFpbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");  
+}
+::selection{
+  background-color: deepskyblue;
+}
+.topheader{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url("https://www.wallpapertip.com/wmimgs/40-407193_blue-mountain-wallpaper.jpg");
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background: none; 
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: rgb(226, 223, 223); 
+  border: px solid rgb(212, 210, 210);
+}
+::-webkit-scrollbar-button {
+  height: 1px;
+}
+html{
+  scroll-behavior: smooth;
+}

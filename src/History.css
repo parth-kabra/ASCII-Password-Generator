@@ -1,0 +1,28 @@
+.historyBar{
+    background-color: rgb(255,255,255,0.5);
+    width:35vw;
+    height:90vh;
+    overflow: scroll;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+.historyBar > h1{
+    text-align: center;
+    font-weight:400;
+    font-family: "Arial";
+}
+.history{
+    display:flex;
+    justify-content: center;
+}
+.passwordNamePass > h2{
+    padding-left:3vw;
+    font-weight:400
+}
+.passwordNamePass > p{
+    padding-left: 3vw;
+    margin-top:-3vh
+}
+.passwordNamePass{
+    border-bottom: 1px solid rgb(78, 70, 70);
+}

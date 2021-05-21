@@ -1,0 +1,24 @@
+.foot{
+    width: 100%;
+    height:8vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    color:white;
+    background-color:rgb(11, 11, 148);
+}
+.mail,.face,.insta{
+    color:white;
+}
+.insta:hover{
+    color:rgb(255, 0, 221);
+}
+.mail:hover{
+    color:rgb(255, 0, 221);
+}
+.face:hover{
+    color:rgb(255, 0, 221);
+}
+.footer{
+    background-color:rgb(14, 14, 168)
+}

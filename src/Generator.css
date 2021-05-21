@@ -1,0 +1,56 @@
+
+
+.hello{
+    color:white;
+    font-size:50px;
+}
+.msg{
+    color:white;
+    font-size:17px;
+    margin-top:-20px
+}
+.hi{
+    text-align:center;
+    margin-left:32vw;
+    margin-top:50vh;
+    padding-bottom:50vh;
+    width:500px
+}
+.appheader{
+    padding:10px;
+    color: white;
+    flex: 1;
+    position:fixed;
+    top:0px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.AppName{
+    font-weight: 400;
+}
+.Text1::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+.Text1:hover::after {
+    width: 50%;
+    transition: width .3s;
+}
+
+.texts{
+    margin-left: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+.Text1{
+    color:white;
+    text-decoration: none;
+    padding: 25px;
+    font-size:3vh;
+}
